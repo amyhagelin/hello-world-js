@@ -6,7 +6,7 @@ function divider(x, y) {
 			name: 'Non-numbers',
 			message: 'Trying to divide non-numbers',
 			toString: function() {
-				return "Error: " + this.message;
+				return 'Error: ' + this.message;
 			}
 		}
 	}
